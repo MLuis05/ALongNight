@@ -20,7 +20,7 @@ public abstract class Movement : MonoBehaviour {
     [SerializeField] protected Transform feet;
 
     protected Rigidbody rb = null;
-    protected InputManagerPlayer InputPlayerManager = null;
+    //protected InputManagerPlayer InputPlayerManager = null;
 
     private void Awake() { }
     void Start() { }
