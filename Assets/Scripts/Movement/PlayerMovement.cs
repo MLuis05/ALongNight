@@ -10,7 +10,7 @@ public class PlayerMovement : Movement {
     }
 
     private void Update() {
-
+        Move();
     }
 
     public override void Move() {
