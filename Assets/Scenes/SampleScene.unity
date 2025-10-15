@@ -1150,7 +1150,6 @@ GameObject:
   - component: {fileID: 35446870}
   - component: {fileID: 35446869}
   - component: {fileID: 35446868}
-  - component: {fileID: 35446867}
   - component: {fileID: 35446866}
   - component: {fileID: 35446865}
   m_Layer: 0
@@ -1218,19 +1217,6 @@ MonoBehaviour:
   m_DefaultActionMap: GameplayMap
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &35446867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35446864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2760cb955df8bfb4899720c32223603a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerInput: {fileID: 0}
 --- !u!54 &35446868
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -62671,7 +62657,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1261836900}
   - component: {fileID: 1261836899}
-  - component: {fileID: 1261836901}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -62736,7 +62721,7 @@ Light:
   m_BounceIntensity: 15
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.89e-43, z: 7.0198e-41, w: 1.203045e-38}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 0, z: 7.1093e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -62756,18 +62741,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1656403916}
   m_LocalEulerAnglesHint: {x: 36.164, y: -185.158, z: -289.508}
---- !u!114 &1261836901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261836898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1262466269
 PrefabInstance:
   m_ObjectHideFlags: 0
