@@ -1,21 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ScreenScripts : MonoBehaviour
 {
-    public static void ChangeScene(string nameScene =  "") {
-        if (nameScene != " ") {
-            SceneManager.LoadScene(nameScene);
-        }
+    public void ChangeScene(string nameScene) {
+        SceneManager.LoadScene(nameScene);
     }
 
-    public static void ReloadScene() {
+    public void ReloadScene() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public static void ExitScene() {
+    public void ExitGame() {
         Application.Quit();
     }
 }
